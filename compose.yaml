@@ -28,7 +28,6 @@ services:
       SPRING_DATASOURCE_USERNAME: postgres
       SPRING_DATASOURCE_PASSWORD: postgres
       JWT_SECRET: T0yobJEzaLBcqyYVdYoRTITpoBeXH3ckCmnLDfnshhv
-      # Desativa a integração de dev docker-compose dentro do container
       SPRING_DOCKER_COMPOSE_ENABLED: "false"
 
     restart: on-failure
